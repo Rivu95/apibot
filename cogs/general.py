@@ -32,7 +32,7 @@ class General(commands.Cog):
         await ctx.send("Discord js Guide: https://discordjs.guide/\nJS CoC Api Wrapper: https://www.npmjs.com/package/clashofclans.js")
 
     @commands.command(name="py")
-    async def js(self, ctx):
+    async def py(self, ctx):
         """Responds with links of discord.py guide and coc api wrapper made by Mathsman"""
         await ctx.send("Discord py Guide: https://pythondiscord.com/pages/resources/guides/\nPythion CoC Api Wrapper: https://cocpy.readthedocs.io/en/latest/")
 
